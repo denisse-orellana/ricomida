@@ -1,0 +1,215 @@
+body {
+    background-color: var(--white);
+    font-family: 'Cabin', sans-serif;
+}
+
+/*NAV FOOTER*/
+.background-dark {
+    background-color: #373A3C;
+}
+
+.text-color {
+    color: var(--white);
+}
+
+/*HEADER*/
+
+.hero {
+    color: #373A3C;
+    text-align: left;
+    padding-top: 120px;
+    padding-bottom: 20px;
+}
+
+.pizza-img {
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Cabin', sans-serif;
+    color: #373A3C;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+hr {
+    background-color: #000000;
+}
+
+.btn {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.popover-body {
+    color: #ffffff;
+    background-color: #373a3C;
+}
+
+/*INGREDIENTS SECTION*/
+
+h3 {
+    font-family: 'Cabin', sans-serif;
+    color: #373A3C;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.ingredients p {
+    font-family: 'Cabin', sans-serif;
+    color: #373A3C;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.hr2 {
+    width: 25.5%;
+}
+
+/*Recipes Section*/
+
+.recipes {
+    margin-bottom: 70px;
+}
+
+h4 {
+    font-family: 'Cabin', sans-serif;
+    color: #373A3C;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+h5 {
+    font-family: 'Cabin', sans-serif;
+    color: #373A3C;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.ingredients p {
+    font-family: 'Cabin', sans-serif;
+    color: #373A3C;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*NEWLETTER SECTION*/
+
+.newsletter {
+    background-color: var(--danger);
+    color: var(--white);
+    padding: 150px;
+}
+
+h6 {
+    font-family: 'Cabin', sans-serif;
+    color: var(--white);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.newsletter p {
+    font-family: 'Cabin', sans-serif;
+    color: var(--white);
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.span {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/*FOOTER AND NAV*/
+
+.navbar-brand, footer p {
+    font-family: 'Lobster', cursive;
+    color: var(--white);
+    font-size: 37px;
+    font-weight: 400;
+}
+
+.btn-danger {
+    width: 25%;
+}
+
+.carousel-indicators {
+    top: 195px;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #373A3C;
+}
+
+/*Media Query*/
+
+/*MD*/
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    h2 {
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .button {
+        text-align: center;
+    }
+
+    h4 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .hr2 {
+        width: 43.5%;
+    }
+
+    h6 {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+
+    .newsletter p {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    span {
+        font-size: 23px;
+        font-weight: 400;
+    }
+
+    .btn-danger {
+        width: 80%;
+    }
+
+    .newsletter {
+        padding: 80px 20px 80px 20px;
+    }
+
+    .hero {
+        padding-top: 100px;
+    }
+}
+
