@@ -1,4 +1,4 @@
-# Ricomida webpage
+# Ricomida
 
 This projects presents a website for a food blog with the description of a recipe. Responsive web design that involves HTML, CSS, JavaScript and Bootstrap.
 
